@@ -1,0 +1,68 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: rgba(128, 128, 128, 0.808);
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#barra-arriba{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 75px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color:rgb(240, 130, 130);
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 10px;
+    }
+}
+/* ------------   Cuerpo   ------------ */
+
+
+
+#logo{
+
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+    width: 30%;
+    border: black 8px double;
+    float: left;
+}
+#texto-inicial{
+    padding-top: 40px;
+    margin-right: 40px;
+    text-align: end;
+    font-size: 20px;
+}
